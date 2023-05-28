@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<prefabs>
+	<decoration type="model" rotation="0" position="-257,35,-263" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.-1x-1"/>
+	<decoration type="model" rotation="0" position="-85,35,-263" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.0x-1"/>
+	<decoration type="model" rotation="0" position="87,35,-263" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.1x-1"/>
+	<decoration type="model" rotation="0" position="-257,35,-87" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.-1x0"/>
+	<decoration type="model" rotation="0" position="-85,35,-87" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.0x0"/>
+	<decoration type="model" rotation="0" position="87,35,-87" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.1x0"/>
+	<decoration type="model" rotation="0" position="-257,35,89" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.-1x1"/>
+	<decoration type="model" rotation="0" position="-85,35,89" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.0x1"/>
+	<decoration type="model" rotation="0" position="87,35,89" name="PillesA19MazePrefab-513x523-WholeMazeBeforeUpdating-TextureCobblestone.1x1"/>
+</prefabs>
