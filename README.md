@@ -1,6 +1,12 @@
 # MazePrefabs
  Maze Prefab broken into pieces
 
+![image](https://github.com/Druthulu/7dtd-PrefabMaze/assets/50529377/61d70a45-ffa0-4d9c-8811-fc5856563621)
+
+
+![image](https://github.com/Druthulu/7dtd-PrefabMaze/assets/50529377/e9faac18-f79d-4d83-8d90-f6e6ac32506a)
+
+
  0.1 - Pilles Maze 513x523 split into 9 chunks and then aligned through prefabs.xml file
         All chunks align properly, Small coridors and lack of trees means this won't be very exciting gameplay.
         No floor on this maze, so there is grass, there is small wood shrub, I even saw a chicken running through the maze.
