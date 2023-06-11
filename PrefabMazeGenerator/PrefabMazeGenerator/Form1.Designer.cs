@@ -44,6 +44,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.byteArrayIndexPercent = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -71,6 +72,7 @@
             this.output.Size = new System.Drawing.Size(386, 397);
             this.output.TabIndex = 2;
             this.output.Text = "";
+            this.output.TextChanged += new System.EventHandler(this.output_TextChanged);
             // 
             // label1
             // 
@@ -194,11 +196,19 @@
             this.label2.TabIndex = 15;
             this.label2.Text = "Struct Data";
             // 
+            // byteArrayIndexPercent
+            // 
+            this.byteArrayIndexPercent.Location = new System.Drawing.Point(269, 415);
+            this.byteArrayIndexPercent.Name = "byteArrayIndexPercent";
+            this.byteArrayIndexPercent.Size = new System.Drawing.Size(100, 23);
+            this.byteArrayIndexPercent.TabIndex = 16;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.byteArrayIndexPercent);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.traderRekt);
             this.Controls.Add(this.textures2);
@@ -217,6 +227,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Prefab Maze Generator 0.1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,5 +251,6 @@
         private TextBox textBox5;
         private TextBox textBox6;
         private Label label2;
+        private TextBox byteArrayIndexPercent;
     }
 }

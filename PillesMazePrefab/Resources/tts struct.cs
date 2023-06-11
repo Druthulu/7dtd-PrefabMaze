@@ -49,7 +49,7 @@ return result;
 // and then put it together into the final struct.
 
 {
-    long texture[blocksWithTextureCount]//4 bytes
+    long texture[blocksWithTextureCount]//4 bytes ints actually 8
 } TextureId[6*each 1 in the bin data];
 
 // I don't think its a long, I think its 6 bytes, 1 bytes per face
